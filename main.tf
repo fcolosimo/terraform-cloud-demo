@@ -19,7 +19,7 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "rg" {
-    name        = "demo-1.2"
+    name        = "rg-terraform-cloud"
     location    = "eastus2"   
 
     tags        = {

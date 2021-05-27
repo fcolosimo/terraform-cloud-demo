@@ -23,7 +23,8 @@ resource "azurerm_resource_group" "rg" {
     location    = "eastus2"   
 
     tags        = {
-      Environment = "Testing"
+      Environment = "Testing",
+      Project     = "Terraform"
     }
 }
 
